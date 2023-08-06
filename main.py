@@ -95,7 +95,7 @@ def logout():
 @app.route('/download')
 @login_required
 def download():
-    return send_from_directory(directory="static",path="files/cheat_sheet.pdf")
+    return send_from_directory(directory="static",path="files/file.pdf")
 
 
 if __name__ == "__main__":
